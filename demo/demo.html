@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gridlight Demo</title>
+  <link rel="stylesheet" href="../dist/gridlight.css" />
+  <style>
+    .box {
+      background: var(--color-accent);
+      color: white;
+      text-align: center;
+      padding: 0.5rem;
+      border-radius: 4px;
+      font-weight: 600;
+      font-size: 0.875rem;
+    }
+
+    h1, h2 {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      font-family: var(--font-family);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Gridlight CSS Grid Examples</h1>
+
+    <h2>Mobile - 4 columns (col-3)</h2>
+    <div class="row">
+      <div class="col-3 box">col-3</div>
+      <div class="col-3 box">col-3</div>
+      <div class="col-3 box">col-3</div>
+      <div class="col-3 box">col-3</div>
+    </div>
+
+    <h2>Mobile - 3 columns (col-4)</h2>
+    <div class="row">
+      <div class="col-4 box">col-4</div>
+      <div class="col-4 box">col-4</div>
+      <div class="col-4 box">col-4</div>
+    </div>
+
+    <h2>Mobile - 2 columns (col-6)</h2>
+    <div class="row">
+      <div class="col-6 box">col-6</div>
+      <div class="col-6 box">col-6</div>
+    </div>
+
+    <h2>Mobile - 1 column (col-12)</h2>
+    <div class="row">
+      <div class="col-12 box">col-12</div>
+    </div>
+
+    <h2>Tablet - 6 + 6 (col-t-6)</h2>
+    <div class="row">
+      <div class="col-t-6 box">tablet 6</div>
+      <div class="col-t-6 box">tablet 6</div>
+    </div>
+
+    <h2>Desktop - 4 + 4 + 4 (col-d-4)</h2>
+    <div class="row">
+      <div class="col-d-4 box">desktop 4</div>
+      <div class="col-d-4 box">desktop 4</div>
+      <div class="col-d-4 box">desktop 4</div>
+    </div>
+
+    <h2>Responsive - mobile to desktop</h2>
+    <div class="row">
+      <div class="col-12 col-t-6 col-d-4 box">responsive 1</div>
+      <div class="col-12 col-t-6 col-d-4 box">responsive 2</div>
+      <div class="col-12 col-t-12 col-d-4 box">responsive 3</div>
+    </div>
+
+    <h2>No Gap Layout</h2>
+    <div class="no-gap">
+      <div class="row">
+        <div class="col-6 box" style="background: darkgreen;">no gap 1</div>
+        <div class="col-6 box" style="background: darkred;">no gap 2</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
