@@ -61,7 +61,7 @@ Gridlight uses CSS variables for spacing, fonts, colors, and breakpoints.
 }
 ```
 
-No-gal layout:
+No-gap layout:
 ```
 <div class="no-gap">
   <div class="row">
