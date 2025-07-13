@@ -72,7 +72,7 @@ No-gap layout:
 ```
 
 
-License
 
-MIT — free to use, share, modify, and build upon.
-A simple grid for those who want to keep things simple.
+## License
+
+This project is open-source and available under the [MIT License](LICENSE).
