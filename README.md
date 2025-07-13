@@ -17,7 +17,7 @@ Sometimes you just want to build layouts — without loading a 300KB framework o
 
 Perfect for designers, developers, and anyone who hates bloated boilerplate.
 
-[Demo](https://codepen.io/iqramahmed/pen/raOaWLP)
+[Demo](https://biju001.github.io/Gridlight/)
 
 ---
 
